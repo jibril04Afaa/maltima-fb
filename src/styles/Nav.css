@@ -1,7 +1,19 @@
+.nav-major-container {
+  display: flex;
+  justify-content: space-around;
+}
 .nav-major-container .nav-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 .nav-major-container .nav-container .home-link, .nav-major-container .nav-container .contact-link {
+  font-weight: bold;
   color: white;
+}
+/* Media Queries */
+/* mobile screens */
+@media (width <= 425px) {
+  .nav-container {
+    display: none;
+  }
 }/*# sourceMappingURL=Nav.css.map */

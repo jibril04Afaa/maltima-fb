@@ -1,12 +1,26 @@
 
 .nav-major-container {
-    
+    display: flex;
+    justify-content: space-around;
     //border: 1px solid red;
     .nav-container {
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         .home-link, .contact-link {
+            font-weight: bold;
             color: white;
         }
+    }
+
+    .logo-container {
+
+    }
+}
+
+/* Media Queries */
+/* mobile screens */
+@media (width <= 425px) {
+    .nav-container {
+        display: none;
     }
 }

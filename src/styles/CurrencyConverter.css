@@ -1,0 +1,50 @@
+.converter-container {
+  margin: 1rem;
+  border: 2px solid rgb(33, 168, 213);
+  border-radius: 10px;
+  padding: 1.5rem;
+  background-color: rgb(33, 168, 213);
+}
+.converter-container .from-container {
+  margin-top: 0.5rem;
+}
+.converter-container .from-container .actual-converter {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.converter-container .from-container .actual-converter .number-field {
+  border-radius: 10px;
+  border: 0;
+  padding: 0.35rem;
+}
+.converter-container .rate-container .rate h6 {
+  margin-top: 0.5rem;
+}
+.converter-container .to-container {
+  margin-top: 0.5rem;
+}
+.converter-container .to-container .actual-converter {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.converter-container .to-container .actual-converter .number-field {
+  border-radius: 10px;
+  border: 0;
+  padding: 0.35rem;
+}
+.converter-container .btn-container .convert-btn {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border: 0;
+  border-radius: 10px;
+}
+
+@media (width >= 768px) {
+  .converter-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}/*# sourceMappingURL=CurrencyConverter.css.map */

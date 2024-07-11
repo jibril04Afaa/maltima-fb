@@ -1,0 +1,92 @@
+.converter-container {
+    margin: 1rem;
+    border: 2px solid rgb(33, 168, 213);
+    border-radius: 10px;
+    padding: 1.5rem;
+    background-color: rgb(33, 168, 213);
+    .from-container {
+        margin-top: .5rem;
+
+        h3 {
+
+        }
+
+        .actual-converter {
+            margin-top: .5rem;
+
+            //border: 1px solid red;
+            display: flex;
+            justify-content: space-between;
+            .number-field {
+                border-radius: 10px;
+                border: 0;
+                padding: .35rem;
+                select {
+                    option {
+                        
+                    }
+                }
+            }
+        }
+    }
+
+    .rate-container {
+        .rate {
+            h6 {
+                margin-top: .5rem;
+
+            }
+        }
+    }
+
+    .to-container {
+        // all other elements and styles from .from-container's children
+        margin-top: .5rem;
+
+
+        .actual-converter {
+            margin-top: .5rem;
+
+            display: flex;
+            justify-content: space-between;
+            .number-field {
+                border-radius: 10px;
+                border: 0;
+                padding: .35rem;
+                select {
+                    option {
+                        
+                    }
+                }
+            }
+        }
+
+    }
+
+    .btn-container {
+        .convert-btn {
+            margin-top: 1rem;
+            padding: .5rem;
+            border: 0;
+            border-radius: 10px;
+        }
+    }
+
+}
+
+
+// Media Queries
+
+// mobile screens
+@media (min-width: 320px) {
+
+}
+
+// Tablets 
+@media (width >= 768px) {
+    .converter-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
