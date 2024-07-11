@@ -1,0 +1,12 @@
+
+.nav-major-container {
+    
+    //border: 1px solid red;
+    .nav-container {
+        display: flex;
+        justify-content: center;
+        .home-link, .contact-link {
+            color: white;
+        }
+    }
+}
