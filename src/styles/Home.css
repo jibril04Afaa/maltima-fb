@@ -1,0 +1,89 @@
+ul, li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+.home-container {
+  background-size: cover;
+}
+@media (min-width: 320px) {
+  .home-container {
+    color: white;
+    margin-top: 2rem;
+    padding: 2rem;
+  }
+  .home-container .home-title {
+    padding: 0.5rem;
+  }
+  .home-text {
+    margin-top: 1.25rem;
+    line-height: 1.5rem;
+  }
+  .btn-container {
+    margin-top: 1rem;
+  }
+  .btn-container .get-started {
+    padding: 1rem;
+    border: 0;
+    border-radius: 25px;
+    background-color: #FF7F5C;
+  }
+}
+@media (width >= 768px) {
+  .home-container {
+    color: white;
+    margin-top: 2rem;
+    padding: 2rem;
+  }
+  .home-container .home-title {
+    padding: 0.5rem;
+  }
+  .home-text {
+    margin-top: 1.25rem;
+    line-height: 2rem;
+    font-size: 1.5rem;
+  }
+  .btn-container {
+    margin-top: 1rem;
+  }
+  .btn-container .get-started {
+    padding: 1.25rem;
+    font-size: 1.25rem;
+    border: 0;
+    border-radius: 25px;
+    background-color: #FF7F5C;
+  }
+}
+@media (width >= 1024px) {
+  .home-container {
+    color: white;
+    margin-top: 2rem;
+    padding: 2rem;
+  }
+  .home-container .home-title {
+    padding: 0.5rem;
+  }
+  .home-text {
+    margin-top: 1.25rem;
+    line-height: 2.5rem;
+    font-size: 2rem;
+  }
+  .btn-container {
+    margin-top: 1rem;
+  }
+  .btn-container .get-started {
+    padding: 1.25rem;
+    font-size: 1.25rem;
+    border: 0;
+    border-radius: 25px;
+    background-color: #FF7F5C;
+  }
+}/*# sourceMappingURL=Home.css.map */

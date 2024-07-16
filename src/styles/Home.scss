@@ -1,0 +1,129 @@
+
+ul, li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+button {
+    cursor: pointer;
+}
+
+
+// main styles
+.home-container {
+    background-size: cover;
+    .home-title {
+
+    }
+
+    .home-text {
+
+    }
+
+    .btn-container {
+        .get-started {
+            
+        }
+    }
+
+}
+
+
+// Media Queries
+
+// mobile screens
+@media (min-width: 320px) {
+    .home-container {
+        color: white;
+        margin-top: 2rem;
+        padding: 2rem;
+        .home-title {
+            padding: .5rem;
+        }
+    }
+
+    .home-text {
+        margin-top: 1.25rem;
+        line-height: 1.5rem;
+    }
+
+    .btn-container {
+        margin-top: 1rem;
+        .get-started {
+            padding: 1rem;
+            border: 0;
+            border-radius: 25px;
+            background-color: #FF7F5C;
+        }
+    }
+
+    
+}
+
+// Tablets 
+@media (width >= 768px) {
+    .home-container {
+        color: white;
+        margin-top: 2rem;
+        padding: 2rem;
+        .home-title {
+            padding: .5rem;
+        }
+    }
+
+    .home-text {
+        margin-top: 1.25rem;
+        line-height: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .btn-container {
+        margin-top: 1rem;
+        .get-started {
+            padding: 1.25rem;
+            font-size: 1.25rem;
+            border: 0;
+            border-radius: 25px;
+            background-color: #FF7F5C;
+        }
+    }
+}
+
+// Laptops 
+@media (width >= 1024px) {
+    .home-container {
+        color: white;
+        margin-top: 2rem;
+        padding: 2rem;
+        .home-title {
+            padding: .5rem;
+        }
+    }
+
+    .home-text {
+        margin-top: 1.25rem;
+        line-height: 2.5rem;
+        font-size: 2rem;
+    }
+
+    .btn-container {
+        margin-top: 1rem;
+        .get-started {
+            padding: 1.25rem;
+            font-size: 1.25rem;
+            border: 0;
+            border-radius: 25px;
+            background-color: #FF7F5C;
+        }
+    }
+}
+
+// Large laptops
+@media (width >= 1440px) {
+
+}

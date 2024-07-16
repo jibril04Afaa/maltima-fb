@@ -1,0 +1,95 @@
+
+.service-card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid ghostwhite;
+    
+    .service-image-c {
+        .service-img {
+
+        }
+    }
+
+    .service-name-c {
+        .service-name {
+
+        }
+    }
+
+    .service-desc-c {
+        .service-desc {
+
+        }
+    }
+}
+
+
+// Media Queries
+
+// mobile screens
+@media (min-width: 320px) {
+    .service-card-container {
+        padding: 1rem;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid ghostwhite;
+        width: 200px;
+        .service-image-c {
+            padding: 1rem;
+            .service-img {
+                width: 125px;
+                height: 100px;
+            }
+        }
+    
+        .service-name-c {
+            padding: .25rem;
+            .service-name {
+                text-align: center;
+            }
+        }
+    
+        .service-desc-c {
+            padding: .25rem;
+            .service-desc {
+                text-align: center;
+            }
+        }
+    }
+}
+
+// Tablets 
+@media (width >= 768px) {
+
+}
+
+// Laptops 
+@media (width >= 1024px) {
+
+}
+
+// Large laptops
+@media (width >= 1440px) {
+
+}
+
+
+
+
+
+// Media Queries
+
+// mobile screens
+@media (min-width: 320px) {
+
+}
+
+// Tablets 
+@media (width >= 768px) {
+
+}

@@ -24,13 +24,36 @@ button {
 }
 
 body {
-    background: rgb(2,0,12);
-    background: rgba(0,212,255,1);
+    background-color: #0045A7;
 } 
+
+.services-title {
+    color: white;
+    text-align: center;
+}
+
 
 
 /* Media Queries */
 /* mobile screens */
+
 @media (min-width: 320px) {
-    
+    .services-title {
+        margin-top: 3rem;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .services-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        gap: 2rem;
+    }
+}
+
+ 
+@media (width >= 768px) {
+
 }

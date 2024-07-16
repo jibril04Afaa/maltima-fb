@@ -1,50 +1,115 @@
-.converter-container {
-  margin: 1rem;
+.currencytitle {
+  text-align: center;
+  color: white;
+}
+
+.currency-component-wrapper .converter-container {
+  color: white;
   border: 2px solid rgb(33, 168, 213);
   border-radius: 10px;
   padding: 1.5rem;
-  background-color: rgb(33, 168, 213);
+  background-color: #0045A7;
 }
-.converter-container .from-container {
+.currency-component-wrapper .converter-container .from-container {
   margin-top: 0.5rem;
 }
-.converter-container .from-container .actual-converter {
-  margin-top: 0.5rem;
-  display: flex;
-  justify-content: space-between;
-}
-.converter-container .from-container .actual-converter .number-field {
-  border-radius: 10px;
-  border: 0;
-  padding: 0.35rem;
-}
-.converter-container .rate-container .rate h6 {
-  margin-top: 0.5rem;
-}
-.converter-container .to-container {
-  margin-top: 0.5rem;
-}
-.converter-container .to-container .actual-converter {
+.currency-component-wrapper .converter-container .from-container .actual-converter {
   margin-top: 0.5rem;
   display: flex;
   justify-content: space-between;
 }
-.converter-container .to-container .actual-converter .number-field {
+.currency-component-wrapper .converter-container .from-container .actual-converter .number-field {
   border-radius: 10px;
   border: 0;
   padding: 0.35rem;
 }
-.converter-container .btn-container .convert-btn {
+.currency-component-wrapper .converter-container .rate-container .rate h6 {
+  margin-top: 0.5rem;
+}
+.currency-component-wrapper .converter-container .to-container {
+  margin-top: 0.5rem;
+}
+.currency-component-wrapper .converter-container .to-container .actual-converter {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.currency-component-wrapper .converter-container .to-container .actual-converter .number-field {
+  border-radius: 10px;
+  border: 0;
+  padding: 0.35rem;
+}
+.currency-component-wrapper .converter-container .btn-container .convert-btn {
+  background-color: #FF7F5C;
   margin-top: 1rem;
   padding: 0.5rem;
   border: 0;
   border-radius: 10px;
 }
 
+.request-container {
+  display: flex;
+  justify-content: center;
+}
+.request-container .request-pickup-btn {
+  background-color: #FF7F5C;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border: 0;
+  border-radius: 10px;
+}
+
+@media (min-width: 320px) {
+  .currencytitle {
+    margin-top: 3rem;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+  }
+  .currency-component-wrapper {
+    padding: 1rem;
+  }
+}
 @media (width >= 768px) {
-  .converter-container {
+  .currency-component-wrapper {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
+  }
+  .currency-component-wrapper .converter-container {
+    width: 500px;
+  }
+  .currency-component-wrapper .converter-container .from-container {
+    margin-top: 0.5rem;
+  }
+  .currency-component-wrapper .converter-container .from-container .actual-converter {
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .currency-component-wrapper .converter-container .from-container .actual-converter .number-field {
+    border-radius: 10px;
+    border: 0;
+    padding: 0.35rem;
+  }
+  .currency-component-wrapper .converter-container .rate-container .rate h6 {
+    margin-top: 0.5rem;
+  }
+  .currency-component-wrapper .converter-container .to-container {
+    margin-top: 0.5rem;
+  }
+  .currency-component-wrapper .converter-container .to-container .actual-converter {
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .currency-component-wrapper .converter-container .to-container .actual-converter .number-field {
+    border-radius: 10px;
+    border: 0;
+    padding: 0.35rem;
+  }
+  .currency-component-wrapper .converter-container .btn-container .convert-btn {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    border: 0;
+    border-radius: 10px;
   }
 }/*# sourceMappingURL=CurrencyConverter.css.map */

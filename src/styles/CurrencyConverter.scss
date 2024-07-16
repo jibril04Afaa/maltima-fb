@@ -1,92 +1,245 @@
-.converter-container {
-    margin: 1rem;
-    border: 2px solid rgb(33, 168, 213);
-    border-radius: 10px;
-    padding: 1.5rem;
-    background-color: rgb(33, 168, 213);
-    .from-container {
-        margin-top: .5rem;
-
-        h3 {
-
-        }
-
-        .actual-converter {
-            margin-top: .5rem;
-
-            //border: 1px solid red;
-            display: flex;
-            justify-content: space-between;
-            .number-field {
-                border-radius: 10px;
-                border: 0;
-                padding: .35rem;
-                select {
-                    option {
-                        
-                    }
-                }
-            }
-        }
-    }
-
-    .rate-container {
-        .rate {
-            h6 {
-                margin-top: .5rem;
-
-            }
-        }
-    }
-
-    .to-container {
-        // all other elements and styles from .from-container's children
-        margin-top: .5rem;
-
-
-        .actual-converter {
-            margin-top: .5rem;
-
-            display: flex;
-            justify-content: space-between;
-            .number-field {
-                border-radius: 10px;
-                border: 0;
-                padding: .35rem;
-                select {
-                    option {
-                        
-                    }
-                }
-            }
-        }
-
-    }
-
-    .btn-container {
-        .convert-btn {
-            margin-top: 1rem;
-            padding: .5rem;
-            border: 0;
-            border-radius: 10px;
-        }
-    }
-
+.currencytitle {
+    text-align: center;
+    color: white;
 }
 
+.currency-component-wrapper {
+    .converter-container {
+        color: white;
+        border: 2px solid rgb(33, 168, 213);
+        border-radius: 10px;
+        padding: 1.5rem;
+        background-color: #0045A7;
+        .from-container {
+            margin-top: .5rem;
+    
+            h3 {
+    
+            }
+    
+            .actual-converter {
+                margin-top: .5rem;
+    
+                //border: 1px solid red;
+                display: flex;
+                justify-content: space-between;
+                .number-field {
+                    border-radius: 10px;
+                    border: 0;
+                    padding: .35rem;
+                    select {
+                        option {
+                            
+                        }
+                    }
+                }
+            }
+        }
+    
+        .rate-container {
+            .rate {
+                h6 {
+                    margin-top: .5rem;
+    
+                }
+            }
+        }
+    
+        .to-container {
+            // all other elements and styles from .from-container's children
+            margin-top: .5rem;
+    
+    
+            .actual-converter {
+                margin-top: .5rem;
+    
+                display: flex;
+                justify-content: space-between;
+                .number-field {
+                    border-radius: 10px;
+                    border: 0;
+                    padding: .35rem;
+                    select {
+                        option {
+                            
+                        }
+                    }
+                }
+            }
+    
+        }
+    
+        .btn-container {
+            .convert-btn {
+                background-color: #FF7F5C;
+                margin-top: 1rem;
+                padding: .5rem;
+                border: 0;
+                border-radius: 10px;
+            }
+        }
+    
+    }
+}
+
+
+.request-container {
+    display: flex;
+    justify-content: center;
+    .request-pickup-btn {
+        background-color: #FF7F5C;
+        margin-top: 1rem;
+        padding: .5rem;
+        border: 0;
+        border-radius: 10px;
+    }
+}
 
 // Media Queries
 
 // mobile screens
 @media (min-width: 320px) {
+    .currencytitle {
+        margin-top: 3rem;
+        padding: .5rem;
+        font-size: 1.5rem;
+    }
+
+    .currency-component-wrapper {
+        padding: 1rem;
+        .converter-container {
+            
+            .from-container {
+        
+                h3 {
+        
+                }
+        
+                .actual-converter {
+                    .number-field {
+                        select {
+                            option {
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        
+            .rate-container {
+                .rate {
+                    h6 {
+        
+                    }
+                }
+            }
+        
+            .to-container {
+                // all other ele
+        
+        
+                .actual-converter {
+                    .number-field {
+                        select {
+                            option {
+                                
+                            }
+                        }
+                    }
+                }
+        
+            }
+        
+            .btn-container {
+                .convert-btn {
+                    
+                }
+            }
+        
+        }
+    }
 
 }
 
 // Tablets 
 @media (width >= 768px) {
-    .converter-container {
+    .currency-component-wrapper {
         display: flex;
-        justify-content: space-around;
-        align-items: center;
+        justify-content: center;
+        .converter-container {
+            width: 500px;
+            // display: flex;
+            // justify-content: space-around;
+            // align-items: center;
+            .from-container {
+                margin-top: .5rem;
+                
+        
+                h3 {
+        
+                }
+        
+                .actual-converter {
+                    margin-top: .5rem;
+        
+                    //border: 1px solid red;
+                    display: flex;
+                    justify-content: space-between;
+                    .number-field {
+                        border-radius: 10px;
+                        border: 0;
+                        padding: .35rem;
+                        select {
+                            option {
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        
+            .rate-container {
+                .rate {
+                    h6 {
+                        margin-top: .5rem;
+        
+                    }
+                }
+            }
+        
+            .to-container {
+                // all other elements and styles from .from-container's children
+                margin-top: .5rem;
+        
+        
+                .actual-converter {
+                    margin-top: .5rem;
+        
+                    display: flex;
+                    justify-content: space-between;
+                    .number-field {
+                        border-radius: 10px;
+                        border: 0;
+                        padding: .35rem;
+                        select {
+                            option {
+                                
+                            }
+                        }
+                    }
+                }
+        
+            }
+        
+            .btn-container {
+                .convert-btn {
+                    margin-top: 1rem;
+                    padding: .75rem;
+                    border: 0;
+                    border-radius: 10px;
+                }
+            }
+        }
     }
+
 }
