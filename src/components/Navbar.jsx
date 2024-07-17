@@ -47,6 +47,7 @@ export const Navbar = () => {
     <>  
 
       <div className="burger-menu-container" onClick={toggleBurgerMenu}>
+        
         <BurgerMenu/>
       </div>
       
